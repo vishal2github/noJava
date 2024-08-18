@@ -22,8 +22,10 @@
 
 // Program showing the naming rules applied on variables and class.
 
-public class Naming_Conventions {  // Class name in TitleCase: recommended
-    public static void main(String[] args) {  // Method name in all small or in camel case: recommended
+public class Naming_Conventions  // Class name in TitleCase: recommended
+{
+    public static void main(String[] args)  // Method name in all small or in camel case: recommended
+    {
 //        ** INCORRECT VARIABLE NAMING **
 //        int 1number = 3;  // Starting with a number: not allowed
 //        int 1 number = 3; // Having a space: not allowed

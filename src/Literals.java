@@ -1,9 +1,13 @@
 /*
     :: LITERALS ::
+
+        > Literals are the smallest units.
 */
 
-public class Literals {
-    public static void main(String[] args) {
+public class Literals
+{
+    public static void main(String[] args)
+    {
         byte age = 34;
         int age2 = 28;
         short age3 = 3432;

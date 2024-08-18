@@ -15,8 +15,10 @@
             >> ...
 */
 
-public class Keyword {
-    public static void main(String[] args) {
+public class Keyword
+{
+    public static void main(String[] args)
+    {
 //        int boolean = 43;  // 'boolean' is a keyword hence can't be used as a variable name
 //        System.out.println(boolean);
 

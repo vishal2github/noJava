@@ -37,8 +37,10 @@
         > String is most widely used non-primitive datatype.
 */
 
-public class Variables_And_Datatypes {
-    public static void main(String[] args) {
+public class Variables_And_Datatypes
+{
+    public static void main(String[] args)
+    {
         byte v1 = 3;
         short v2 = 34;
         int v3 = 53;
