@@ -54,7 +54,7 @@ public class Operators
         System.out.println("Unary Minus: " + -unr + "\n");
 
         // Arithmetic Operators with basic operations on the binary values
-        int v1 = 5, v2 = 8;
+        int v1 = 15, v2 = 2;
         System.out.println("The addition is " + (v1 + v2));
         System.out.println("The subtraction is " + (v1 - v2));
         System.out.println("The multiplication is " + (v1 * v2));
@@ -64,8 +64,8 @@ public class Operators
         // Arithmetic Operators with algebraic operations on the binary values
         int c1 = 5, c2 = 10;
         float c3 = 45.7f;
-        Double c4 = 2.245, c5 = 34.565;
-        Double r = ((c2 + c3) * c5) / (c1 - c4);
+        double c4 = 2.245, c5 = 34.565;
+        double r = ((c2 + c3) * c5) / (c1 - c4);
         System.out.println("The algebraic result is " + r + "\n");
 
         // Increment and Decrement Operators
@@ -86,8 +86,8 @@ public class Operators
 
         // Logical Operators
         int n1 = 5, n2 = 7;
-        System.out.println("Logical AND condition: " + ((n1 > n2) && (n1 > n2)));
-        System.out.println("Logical OR condition: " + ((n1 > n2) || (n1 > n2)));
+        System.out.println("Logical AND condition: " + ((n1 > n2) && (n1 < n2)));
+        System.out.println("Logical OR condition: " + ((n1 > n2) || (n1 < n2)));
         System.out.println("Logical NOT condition: " + (!(n1 > n2)) + "\n");
 
         // Conditional Operator
