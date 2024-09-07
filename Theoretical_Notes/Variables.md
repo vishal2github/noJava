@@ -14,3 +14,23 @@
 + Also known as non-static variables.
 + These variables are created each time object from the class is created.
 + These variables can't be accessed without reference of the object.
+
+<br>
+
+### Class variable
+
++ These variables are declared inside the class by using static modifier.
++ Also known as static variables.
++ These variables are created when class is loaded in memory.
++ *Remember: A class is loaded only once in the memory.*
++ Hence, these variables can have only single copy in the memory.
++ Class name is required to access these variables.
++ Object reference can also be given to access these variables.
+
+<br>
+
+### Local variable
+
++ These variables are declared inside method or constructor.
++ Arguments are also local variables.
++ These variables can't be accessed outside the method or constructor.
