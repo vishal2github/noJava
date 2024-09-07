@@ -23,3 +23,14 @@
   + Genereating reference of the object
   + Initializing object
   + Returning reference of the object
+
+<br>
+
+### Reference of the object
+
++ Every object is uniquely identified by an id.
++ This id is known as the reference of an object.
++ JVM generates this reference and returns to the program.
++ Program must keep reference of this object.
++ The variable that will keep reference of the object is known as reference variable.
++ Datatype of this variable should be that class from which the object is created.
