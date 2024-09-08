@@ -1,5 +1,27 @@
 # VARIABLES
 
++ It is a named space reserved by program in memory to keep data.
++ Runtime environment will allocate space in memory to the program on demand of program.
+
+```
+    Command to reserve this space in memory should be as follows:
+        <variable_datatype> <variable_name>;
+
+    For example: int a; Here, 'int' is datatype and 'a' is variable's name.
+```
+
+<br>
+
+### Datatypes
+
++ Variable has its datatype that provides size and type of variable.
+
++ Datatypes are divided into following two categories
+  + Primitive datatypes
+  + Non primitive datatypes
+
+<br>
+
 ### Types of variables
 
 + Instance variables
