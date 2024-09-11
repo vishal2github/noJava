@@ -2,44 +2,65 @@
 
 ### Defining class for object
 
-+ The following steps are followed in order to define a class:
-  + Define instance variable inside class
-  + Define constructors
-  + Define methods(specially getters and setters)
+- The following steps are followed in order to define a class:
+  - Define instance variable inside class
+  - Define constructors
+  - Define methods(specially getters and setters)
 
 ```
-  public class Point
-  {
-    // Defining instance variable
-    int x;
-    int y;
+  Example of general class:
 
-    // Defining constructor
-    public Point(int a,int b)
+    public class Point
     {
-  	this.x=a;
-  	this.y=b;	
-    }
+      // Defining instance variable
+      int x;
+      int y;
 
-    // Defining methods
-    public int getX()
-    {
-  	return this.x;
-    }
+      // Defining constructor
+      public Point(int a,int b)
+      {
+    	this.x=a;
+    	this.y=b;
+      }
 
-    public void setX(int a)
-    {
-  	this.x=a;
-    }
+      // Defining methods
+      public int getX()
+      {
+    	return this.x;
+      }
 
-    public int getY()
-    {
-  	return this.y;
-    }
+      public void setX(int a)
+      {
+    	this.x=a;
+      }
 
-    public void setY(int a)
-    {
-  	this.y=a;
+      public int getY()
+      {
+    	return this.y;
+      }
+
+      public void setY(int a)
+      {
+    	this.y=a;
+      }
     }
-  }
 ```
+
+<br>
+
+### Class in relation with variables and method
+
++ Case 1: Class.static_variable
+  + X.y
+  + Suppose, X is class, then after-dot entity 'y' will be a static variable.
+
++ Case 2: Class.static_method()
+  + X.y()
+  + Suppose, if X is a class, then after-dot entity 'y()' will be a static method.
+
++ Conclusion from Case 1 and 2
+  + Class will have one of the two entities after the 'dot' symbol, either static variable or static method.
+
++ Case 3: reference_variable.nonStatic_Variable
+  + x.y
+  + Suppose, if x is a reference variable, then after-dot entity 'y' will be a non-static variable.
