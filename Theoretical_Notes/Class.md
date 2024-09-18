@@ -64,3 +64,19 @@
 + Case 3: reference_variable.nonStatic_Variable
   + x.y
   + Suppose, if x is a reference variable, then after-dot entity 'y' will be a non-static variable.
+
+<br>
+
+### Keywords used with class
+
++ The four keywords used with classes are
+  + Abstract
+  + Final
+  + Public
+  + Default
+
+```
+  Note:
+    > Abstract method is method without body.
+    > Public keyword is an access modifier.
+```
