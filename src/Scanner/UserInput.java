@@ -1,12 +1,16 @@
 /*
-    :: USER INPUT ::
+    | USER INPUT |
 
         > Having user input requires an initial step by importing a Scanner class.
 */
 
-import java.util.Scanner;  // Importing scanner class (without this Scanner won't work)
 
-public class User_Input
+// Programs shows the user input using scanner class.
+
+package Scanner;
+import java.util.Scanner;
+
+public class UserInput
 {
     public static void main(String[] args)
     {

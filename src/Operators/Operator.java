@@ -1,5 +1,5 @@
 /*
-    :: OPERATORS ::
+    | OPERATORS |
 
         > Assignment Operator: >> Assignment Operator '='
 
@@ -33,9 +33,12 @@
        > Comma Operator ','
 */
 
+
 // Program shows the operator's usage.
 
-public class Operators
+package Operators;
+
+public class Operator
 {
     public static void main(String[] args)
     {

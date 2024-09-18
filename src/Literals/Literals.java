@@ -1,8 +1,13 @@
 /*
-    :: LITERALS ::
+    | LITERALS |
 
         > Literals are the smallest units.
 */
+
+
+// Program showing literals.
+
+package Literals;
 
 public class Literals
 {

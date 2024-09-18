@@ -1,12 +1,17 @@
 /*
-    :: INSTANCE VARIABLE ::
+    | INSTANCE VARIABLE |
 
-    :: THIS ::
+    | THIS |
 
         > It is a keyword.
 */
 
-public class InsVar_and_This
+
+// Program showing relation between 'instant-variable' and 'this'.
+
+package Instant_Variable_and_This;
+
+public class InsVarNThis
 {
     private int num = 65; // Instance variable
 
@@ -26,10 +31,10 @@ public class InsVar_and_This
     public static void main(String[] args)
     {
         // Non-static method call
-        InsVar_and_This obj = new InsVar_and_This();
+        InsVarNThis obj = new InsVarNThis();
         obj.show();
 
         // Static method call
-        InsVar_and_This.show2(2);
+        InsVarNThis.show2(2);
     }
 }

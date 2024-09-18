@@ -1,5 +1,5 @@
 /*
-    :: MAIN() METHOD ::
+    | MAIN() METHOD |
 
         > The main() is a method inside class and is considered as the entry and exit point of the java program.
 
@@ -13,7 +13,12 @@
                 }
 */
 
-public class Main_Method
+
+// Program shows 'main' method.
+
+package Main_Method;
+
+public class MainMethod
 {
     public static void main(String[] args)
     {

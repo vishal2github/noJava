@@ -1,5 +1,5 @@
 /*
-    :: NAMING RULES ::
+    | NAMING RULES |
 
         > Following rules must be following in naming of class, variable, method, argument, package, constant, etc.
             >> Name must begin with an alphabet.
@@ -9,7 +9,7 @@
             >> Keywords can't be allowed.
 
 
-    :: NAMING CONVENTIONS ::
+    | NAMING CONVENTIONS |
 
         > Following naming conventions should be followed:
             >> Name should be meaningful.
@@ -22,7 +22,9 @@
 
 // Program showing the naming rules applied on variables and class.
 
-public class Naming_Conventions  // Class name in TitleCase: recommended
+package Naming_Conventions;
+
+public class NamingConventions
 {
     public static void main(String[] args)  // Method name in all small or in camel case: recommended
     {

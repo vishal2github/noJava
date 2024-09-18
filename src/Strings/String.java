@@ -1,19 +1,29 @@
+/*
+    | STRING |
+
+        > It is a class.
+*/
+
+
+// Program shows the string class usage.
+
+package Strings;
 import java.util.Scanner;
 
-public class Strings
+public class String
 {
-    public static void main(String[] args)
+    public static void main(java.lang.String[] args)
     {
         // String with 'new'
-        String intro = new String("Hola, am Gola!");
+        java.lang.String intro = new java.lang.String("Hola, am Gola!");
         System.out.println(intro);
 
         // Direct String (without new)
-        String intro2 = "Hello, am Willow!";
+        java.lang.String intro2 = "Hello, am Willow!";
         System.out.println(intro2);
 
         // Printing string data
-        String name = "Har";
+        java.lang.String name = "Har";
         System.out.print("The name is ");
         System.out.println(name);
 
@@ -31,7 +41,7 @@ public class Strings
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your string below:");
         // String st = sc.next(); // Will print until space appears
-        String st = sc.nextLine(); // Will print whole content
+        java.lang.String st = sc.nextLine(); // Will print whole content
         System.out.println(st);
     }
 }

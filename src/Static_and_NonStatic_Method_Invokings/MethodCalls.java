@@ -14,7 +14,12 @@
         > An object's variable is created and the reference is passed to call that method.
 */
 
-public class S_NS_Method_Calls
+
+// Program shows the invoking/calling techniques for static and non-static methods.
+
+package Static_and_NonStatic_Method_Invokings;
+
+public class MethodCalls
 {
     // Static method: Called directly using class name
     public static int getSquare1(int num1)
@@ -31,15 +36,15 @@ public class S_NS_Method_Calls
     public static void main(String[] args)
     {
         // Static method is called directly via class, so no need to create an object (reference) for this method
-        int res1 = S_NS_Method_Calls.getSquare1(8);
+        int res1 = MethodCalls.getSquare1(8);
         System.out.println(res1);
         // or
         System.out.println(getSquare1(8));
         //or
-        System.out.println(S_NS_Method_Calls.getSquare1(8));
+        System.out.println(MethodCalls.getSquare1(8));
 
         // Non-static method needs to be called with an object, so need to create an object for this method
-        S_NS_Method_Calls obj = new S_NS_Method_Calls();
+        MethodCalls obj = new MethodCalls();
         int res2 = obj.getSquare2(5);
         System.out.println(res2);
         // or

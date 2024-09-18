@@ -1,5 +1,5 @@
 /*
-    :: KEYWORDS ::
+    | KEYWORDS |
 
         > It is vocabulary of programming language.
         > Without keywords we can not write source code of the program.
@@ -14,6 +14,11 @@
             >> assert, finally, void, null, this, super, true, false
             >> ...
 */
+
+
+// Program shows use of keywords.
+
+package Keyword;
 
 public class Keyword
 {
