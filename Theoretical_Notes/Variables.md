@@ -32,21 +32,23 @@
 
 ### Instance variable
 
-+ Those variables that are declared inside the class without using static modifier.
 + Also known as non-static variables.
-+ These variables are created each time object from the class is created.
-+ These variables can't be accessed without reference of the object.
++ Those variables that are declared inside the class without using static modifier.
++ These variables are created each time class is instantiated by JVM.
++ These variables are created each time object from the class is created (process known as instantiation).
++ Hence, also known as instance variables.
++ Object's reference is required to access these variables.
 + Instance variable stores the object's data.
 
 <br>
 
 ### Class variable
 
-+ These variables are declared inside the class by using static modifier.
 + Also known as static variables.
-+ These variables are created when class is loaded in memory.
-+ *Remember: A class is loaded only once in the memory.*
-+ Hence, these variables can have only single copy in the memory.
++ These variables are declared inside the class by using static modifier.
++ These variables are created when class is loaded in memory by JVM.
++ *Remember: A class is loaded only once in the memory during lifecycle of the project.*
++ Hence, these variables only single copy in the memory.
 + Class name is required to access these variables.
 + Object reference can also be given to access these variables.
 
