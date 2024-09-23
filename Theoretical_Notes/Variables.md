@@ -36,6 +36,7 @@
 + Also known as non-static variables.
 + These variables are created each time object from the class is created.
 + These variables can't be accessed without reference of the object.
++ Instance variable stores the object's data.
 
 <br>
 
@@ -56,3 +57,15 @@
 + These variables are declared inside method or constructor.
 + Arguments are also local variables.
 + These variables can't be accessed outside the method or constructor.
+
+<br>
+
+### Instance variable vs Reference variable
+
++ Instance variable:
+  + Instance variable stores the object's data.
+  + The data of an object is kept in instance variable.
+
++ Reference variable:
+  + Reference variable stores the object's reference.
+  + The datatype of this variable is either class or an interface.
