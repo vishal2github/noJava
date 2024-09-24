@@ -2,10 +2,10 @@
 
 ### Defining class for object
 
-- The following steps are followed in order to define a class:
-  - Define instance variable inside class
-  - Define constructors
-  - Define methods(specially getters and setters)
++ The following steps are followed in order to define a class:
+  + Define instance variable inside class
+  + Define constructors
+  + Define methods(specially getters and setters)
 
 ```
   Example of general class:
@@ -79,4 +79,16 @@
   Note:
     > Abstract method is method without body.
     > Public keyword is an access modifier.
+    > Classes c
 ```
+
+<br>
+
+### Class to class relation
+
++ Classes can be used by other class following ways:
+  + Association (via creating an object from that class)
+  + Inheritance (via inheritance's method call)
+
+  + Associatin HAS A relationship.
+  + Inheritance IS A relationship.
