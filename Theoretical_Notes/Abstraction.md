@@ -14,6 +14,8 @@
 + Method without body or implementation.
 + Use 'abstract' keyword in signature (or prototype) of the method to define a method without body.
 + Code will throw an error, if abtract keyword isn't used for signature or prototype.
++ Implementation of an abstract method will be defined in/by child class.
++ First, abstraction method's signature/prototype is declared, then it's body is defined in any child class.
 
 ```
   public void show(); // Incorrect way of defining abstract method as its signature
@@ -29,6 +31,10 @@
 + Means, object from abstract class can't be created.
 + 'Abstract' keyword is used to define abstract class.
 
++ Reasons to make a class an abtract class:
+  + To make abstract method in class, then that class must be an abstract class.
+  + To prevent any instantiation of a class (anywhere), then that class must be an abstract class.
+
 ```
   Abstract class declaration:
 
@@ -41,6 +47,10 @@
 <br>
 
 ### Abstract-class, interface and abstract-method relation
+
++ Abstract class can have both abstract and non-abstract methods.
++ If method's implementation is common/same for all child classes, then that method should be non-abstract in parent class.
++ If method is smae in all child classes but implementation is different, then that method will be abstract.
 
 ```
   Abstract method can be declared in abstract class:
