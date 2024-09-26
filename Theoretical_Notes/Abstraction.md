@@ -5,7 +5,8 @@
 + It is achieved by defining 'abstract methods'.
 + If there's an abstract method, then there will be another class where its body have been declared.
 + **Rule:** Abstract method can be defined only in 'abstract class' or 'interface'.
-+ When implementation of that method is to be different, then abstract method is required. 
++ Abtract class's abstraction is partial, while interface's abstraction is fully.
++ **Requirement:** When implementation of a method is to be different, then abstract method is required. 
 
 <br>
 
@@ -32,8 +33,8 @@
 + 'Abstract' keyword is used to define abstract class.
 
 + Reasons to make a class an abtract class:
-  + To make abstract method in class, then that class must be an abstract class.
-  + To prevent any instantiation of a class (anywhere), then that class must be an abstract class.
+  + To make abstract method in class, that class must be an abstract class.
+  + To prevent any instantiation of a class (anywhere), that class must be an abstract class.
 
 ```
   Abstract class declaration:
