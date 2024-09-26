@@ -51,7 +51,7 @@
 
 + Abstract class can have both abstract and non-abstract methods.
 + If method's implementation is common/same for all child classes, then that method should be non-abstract in parent class.
-+ If method is smae in all child classes but implementation is different, then that method will be abstract.
++ If method is same in all child classes but implementation is different, then that method will be abstract.
 
 ```
   Abstract method can be declared in abstract class:
@@ -75,3 +75,28 @@
 
 + To defined at least one abstract method inside a class, that class must be an abstract class.
 + When instantiation of class isn't needed/required.
+
+<br>
+
+### Class to class relation
+
++ Classes can be used by other class following ways:
+  + Association (via creating an object from that class)
+  + Inheritance (via inheritance's method call)
+
+  + Associatin HAS A relationship.
+  + Inheritance IS A relationship.
+
+<br>
+
+### Association
+
++ All classes work together.
++ That is, main class is created, and objects from other classes are created in that class and their methods are called according to the needs, this process is called association.
+
++ Association types:
+  + Aggregation
+  + Composition
+
++ If a class is not to be used via association but from inheritance, then that class should be made abstract, i.e, if that class is made abstract, then that class can't be 'instantiated'.
++ If a class is not to be used via inheritance but from association, then make that class final, i.e., if class is made final, then that class can't be 'inherited'.
