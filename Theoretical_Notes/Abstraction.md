@@ -5,7 +5,7 @@
 + It is achieved by defining 'abstract methods'.
 + If there's an abstract method, then there will be another class where its body have been declared.
 + **Rule:** Abstract method can be defined only in 'abstract class' or 'interface'.
-+ Abtract class's abstraction is partial, while interface's abstraction is fully.
++ Abstract class's abstraction is partial, while interface's abstraction is fully.
 + **Requirement:** When implementation of a method is to be different, then abstract method is required. 
 
 <br>
