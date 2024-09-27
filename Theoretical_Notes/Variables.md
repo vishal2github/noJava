@@ -25,8 +25,16 @@
 ### Types of variables
 
 + Instance variables
++ Reference variables
 + Class variables
-+ Local variables
++ Constant variables
+
+<br>
+
+### Variable's types based on scope
+
+  + Local variables
+  + Global variables
 
 <br>
 
