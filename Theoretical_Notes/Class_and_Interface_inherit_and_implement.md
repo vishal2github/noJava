@@ -1,17 +1,25 @@
-# INHERITANCE AND IMPLEMENT RELATIONS WITH CLASS AND INTERFACE
+# INHERITANCE (EXTEND) AND IMPLEMENT RELATIONS WITH CLASS AND INTERFACE
 
-### Class-class inheritance
+### Class-class inheritance (extend)
 
-+ Class inherits class with no multiple inheritances allowance.
++ Class inherits/extends class with no multiple inheritances allowance.
 
 <br>
 
-### Interface-interface inheritance
+### Interface-interface inheritance (extend)
 
-+ Interface inherits interface with multiple inheritances allowance.
++ Interface inherits/extends interface with multiple inheritances allowance.
 
 <br>
 
 ### Class-interface implementation
 
 + Class implements interface with multiple implementations allowance.
+
+<br>
+
+```
+  > Class inherits/extends class (No mutiple inhertitance/extention allowed)
+  > Interface inherits/extends interface (Multiple inheritence/extention allowed)
+  > Class implements interface (Multiple implementation allowed)
+```
