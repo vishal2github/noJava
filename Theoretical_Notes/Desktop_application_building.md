@@ -33,3 +33,11 @@
 
 + Few classes are as follows:
   + JFrame, JButton, JLabel, JTextField, JPasswordField, JCheckBox, JRadioButton, JComboBox, JList, etc.
+
+<br>
+
+### Frame of the UI
+
++ It is main component of UI and container of other components.
++ Other components like combobox, textfield, checkbox, radiobutton, etc.
++ It is by default invisible and size (width and height) of the frame is also 'zero'.
