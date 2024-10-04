@@ -52,18 +52,27 @@
 
 + Case 1: Class.static_variable
   + X.y
-  + Suppose, X is class, then after-dot entity 'y' will be a static variable.
+  + Suppose, 'X' is class, then after-dot entity 'y' will be a static (aka, reference) variable.
 
 + Case 2: Class.static_method()
   + X.y()
-  + Suppose, if X is a class, then after-dot entity 'y()' will be a static method.
+  + Suppose, if 'X' is a class, then after-dot entity 'y()' will be a static method.
 
 + Conclusion from Case 1 and 2
   + Class will have one of the two entities after the 'dot' symbol, either static variable or static method.
 
 + Case 3: reference_variable.nonStatic_Variable
   + x.y
-  + Suppose, if x is a reference variable, then after-dot entity 'y' will be a non-static variable.
+  + Suppose, if 'x' is a reference (aka, static) variable, then after-dot entity 'y' will be a non-static variable.
+
++ Case 4: Class.reference_variable.nonStatic_variable
+  + X.y.z
+  + Suppose, if 'X' is a class, then 'y' will be a reference (aka static) variable and 'z' will be a non-static varible.
+
++ Case 5: Class obj =  -.-.reference_variable 
+  + AA c = x.y.z;
+  + If 'c' is an object variable of class 'AA', then 'x' will be ?, 'y' will be ?, and 'z' will be a reference variable.
+  + 'z' will be a reference variable as it is the value that is to be assigned to 'c' object of class AA.
 
 <br>
 
