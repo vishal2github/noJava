@@ -1,5 +1,9 @@
 # ARRAY
 
+<br>
+
+### **Array**
+
 + Program can create array in memory to keep similar type of values.
 + Values could be primitive and non-primitive as well.
 + To keep similary type of multiple data, arrays and linked list is used.
@@ -29,7 +33,7 @@
 
 ```
   OTHER ARRAY FORMATS:
-  
+
     Format 1: int[] num = new int[] {1, 2, 3, 4, 5};
     Format 2: int[] num = {1, 2, 3, 4, 5};
 ```
