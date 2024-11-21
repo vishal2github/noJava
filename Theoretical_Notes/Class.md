@@ -1,6 +1,8 @@
 # CLASS
 
-### Defining class for object
+<br>
+
+### **Defining class for object**
 
 + The following steps are followed in order to define a class:
   + Define instance variable inside class
@@ -48,7 +50,7 @@
 
 <br>
 
-### Class in relation with variables and method
+### **Class in relation with variables and method**
 
 + Case 1: Class.static_variable
   + X.y
@@ -76,7 +78,7 @@
 
 <br>
 
-### Keywords used with class
+### **Keywords used with class**
 
 + The four keywords used with classes are
   + Abstract
@@ -93,10 +95,40 @@
 
 <br>
 
-### Class's object creation
+### **Class's object creation**
 
 + Ways to create a class object:
   + By using 'new' keyword.
   + By calling 'newInstance()' method of 'class' class.
   + By calling 'clone()' method of object class.
   + By deserialization
+
+<br>
+
+### **Nested class**
+
++ Also known as "inner class".
++ The class defined inside a parent class is called "member or member class" of parent class.
++ **Purpose:** To group classes that belong together, which makes code more readable and maintainable.
+
+```
+  NESTED/INNER CLASS SYNTAX
+
+    public class AA
+    {
+      public class BB{} // Non-static nested class of class AA
+      public static class CC{} // Static nested class of class AA
+      
+      public void show()
+      {
+        class DD // Local nested class of class AA (can't be static)
+      }
+    }
+```
+
+<br>
+
+### **Anonymous nested class**
+
++ It's a nested class without name.
++ The concept of an anonymous nested class can be used when 
