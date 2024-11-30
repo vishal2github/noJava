@@ -1,11 +1,13 @@
-// Program shows the bitwise operator's usage on boolean values.
+// Program shows the bitwise operator's (and/or/xor) usage on boolean values.
 
 package Operators;
 
-public class BitwiseOperators
+public class BitwiseOperators1
 {
     public static void main(String[] args)
     {
+        // BITWISE OPERATORS WITH BOOLEAN VALUES
+
         // Bitwise 'OR' operator with boolean values
         System.out.println("Bitwise 'OR' operator with boolean values");
 

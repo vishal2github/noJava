@@ -17,7 +17,7 @@
 
 package Datatype;
 
-public class DatatypeOps
+public class DatatypeOperations
 {
     public static void main(String[] args)
     {
