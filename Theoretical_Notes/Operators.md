@@ -26,7 +26,7 @@
   + **Arithmetic assignment operators:** +=, -=, /=, *=, %=
   + **Relational operators:** <, >, <=, >=, ==, !=
   + **Logical operators:** && (Logical-and), || (Logical-or), ^ (Logical-xor)
-  + **Bitwise operators:** & (Bitwise-and), | (Bitwise-or), ^ (Bitwise-xor)
+  + **Bitwise operators:** & (Bitwise-and), | (Bitwise-or), ^ (Bitwise-xor), << (Bitwise left-shift), >> (Bitwise right-shift)
 
 ```
   EXAMPLE
