@@ -5,7 +5,8 @@
 ### **Interface**
 
 + It is a structure like class but different from a class.
-+ It is only related to 'abstract method' and 'final variable'.
+
++ It is only related to "abstract method" and "final variable".
 
 + Inside interface one can define:
   + Method
@@ -18,7 +19,10 @@
   + Interface can't be a blueprint of an object.
 
 + Under interface, all methods created will be abstract and public by default.
+
 + Under interface, all variables declared will be public, final and static by default, i.e., simple declaration of variable inside interface will automatically be public, static and final all together.
+
+<br>
 
 ```
   INTERFACE EXAMPLE
@@ -38,6 +42,8 @@
       }
 ```
 
+<br>
+
 + **Requirement:** Interface will specifically be required in condition where the structure will have all methods as abstract and public, and all variables by default as public, static and final (like constant variable).
 
 + Inside an interface, variables and methods can be defined.
@@ -47,6 +53,7 @@
   + These classes are known as implementation class.
 
 + Methods inside interface are by default public and abstract.
+
 + To give implementation of the method inside interface use either static modifier or default modifier.
 
 + Static method of an Interface won't be visible inside implementation class.
@@ -54,6 +61,8 @@
 
 + Default method of an Interface will be visible inside implementation class.
   + It means implementation class can override default method of an Interface.
+
+<br>
 
 ```
   POSSIBLE COMBINATIONS
@@ -64,13 +73,31 @@
     Class extends Class implements Interface(s)
 ```
 
-+ The interface with one abstract method is known as "Functional Interface". Few examples are:
-  + Predicate Interface
-  + Supplier Interface
-  + Consumer Interface
-  + Function Interface
-  + Compare Interface
-  + Comparator Interface
-  + Runnable Interface
+<br>
+
+### **Functional interface**
+
++ The interface with one and only one abstract method is known as "Functional Interface".
+
++ Few functional interfaces are:
+  + Runnable interface
+  + Comparable interface
+  + Comparator interface
+  + Predicate interface (Introduced in Java8)
+  + Consumer interface (Introduced in Java8)
+  + Function interface (Introduced in Java8)
+  + Supplier interface (Introduced in Java8)
+
+<br>
+
+### **Lambda expression**
+
++ It is implementation of the functional interface.
+
+<br>
+
+```
 
 + The interface with no method is known as "Marker Interface".
+
+```
