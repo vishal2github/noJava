@@ -1,26 +1,51 @@
 # LOOP
 
+<br>
+
+### **Loop**
+
 + Define loop, when one wants to write command only once and want to execute that command 'n' number of times.
-+ One can define loop by using three keywords
-  + for
-  + while
-  + do and while
+
++ One can define loop by using following ways:
+  + for loop
+  + nested-for loop
+  + while loop
+  + do-while loop
 
 <br>
 
-### for construct
+```
+  NOTE
+  
+    • Mutliple-for loops and nested-for looping are
+      two different kinds of defining of for loop.
 
-+ Define loop by using for when no of iterations are known/fixed.
+    • Mutliple-for loops are created when multiple "single-for"
+      conditions are defined completely isolated/separate from each other, one after the other.
+```
 
 <br>
 
-### while construct
+### **for construct**
 
-+ Define loop by using while when no of iterations are unknown/variable.
++ Define loop by using "for" when no of iterations are known/fixed.
 
 <br>
 
-### do-while construct
+### **nested-for construct**
 
-+ Define loop by using while when no of iterations are unknown/variable.
++ "For" loop is created inside "for" loop, and so on.
+
+<br>
+
+### **while construct**
+
++ Define loop by using "while" when no of iterations are unknown/variable.
+
+<br>
+
+### **do-while construct**
+
++ Define loop by using "while" when no of iterations are unknown/variable.
+
 + In this case loop will be executed atleast once.
