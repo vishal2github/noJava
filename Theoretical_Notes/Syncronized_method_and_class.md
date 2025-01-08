@@ -1,4 +1,4 @@
-# SYNCRONIZED METHOD
+# **SYNCRONIZED METHOD AND CLASS**
 
 <br>
 
@@ -11,4 +11,9 @@
 ### **Synchronized class**
 
 + Class can't be made synchronized via synchronized keyword, but, if all the public methods are synchronized then that class will be known as "synchronized class".
+
 + The object of such class will also be synchronized.
+
++ Object of synchronized class can be used by only one thread at the time of multi-threading.
+
++ Object of un-synchronized class can be used by all threads at a time of multi-threading.
