@@ -6,6 +6,8 @@
 
 + If a method has been made syncronized, then that method can't be called by multiple threads, but can only be called by one/single thread.
 
++ Rather than making all methods synchronized, only selected methods or a block of method can be synchronized.
+
 <br>
 
 ### **Synchronized class**
