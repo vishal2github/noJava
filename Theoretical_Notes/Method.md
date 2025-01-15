@@ -25,6 +25,19 @@
 
 + One can get information about the method from its prototype.
 
++ Method prototype contains the following specifications:
+  + Modifiers _(Optional)_
+    + Public
+    + Private
+    + Static
+    + Final
+    + Abstract
+    + Synchronized
+
+  + Method name _(Mandatory)_
+  + Return type _(Mandatory)_
+  + Argument list (name with datatype) _(Optional)_
+
 <br>
 
 ```
@@ -46,7 +59,7 @@
   + Name followed by parantheses **(Mandatory)**
   + Return type just before the name **(Mandatory)**
   + Modifiers just before return type **(Optional)**
-  + Arguent list: Inside parantheses **(Optional)**
+  + Argument list: Inside parantheses **(Optional)**
 
 <br>
 
