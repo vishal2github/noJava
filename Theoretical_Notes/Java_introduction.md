@@ -14,27 +14,31 @@
 
 <br>
 
-### **What is application?**
+### **Naming rules**
 
-+ It is the set of programs.
++ Following rules must be followed in naming of class, variable, method, argument, package, constant, etc.:
+  + Name must begin with an alphabet, dollar ($), or underscore (_).
 
-+ Following types of applications can by developed using Java:
-  + Desktop applications
-  + Web applications
-  + Enterprise applications
-  + Web services/APIs
-  + Mobile applications
-  + etc...
+  + Name can't begin with digit/number.
+
+  + Symbols other than dollar and underscore aren't allowed in name.
+    + **Why so?:** Because rest symbols have their role defined for specific task, except dollar and underscore.
+  
+  + Space isn't allowed in name.
+
+  + Keywords can't be used as name.
 
 <br>
 
-### **What is Program?**
+### **Naming conventions**
 
-+ It is a set of methods.
++ Following naming conventions should be follwed:
+  + Name should be meaningful.
 
-+ Program calls/invokes method(s) to perform a specific task.
+  + Class name should be in "TitleCase".
 
-+ In Jave, one will have to write source code of the program and keep it into **".java"** file.
-  + Then this file will be given to the compiler.
-  + Compiler will compile it and generate **".class"** file.
-  + **".class"** file can be treated as program.
+  + Method, variable, and argument name should be in "camelCase".
+
+  + Package name should be in "lowercase".
+
+  + Constant name should be in "UPPERCASE".

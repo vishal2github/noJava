@@ -1,5 +1,9 @@
 # **VARIABLES**
 
+<br>
+
+### **Variable**
+
 + It is a named space reserved by program in memory to keep data.
 
 + Runtime environment will allocate space in memory to the program on demand of program.
@@ -22,6 +26,34 @@
 + Datatypes are divided into following two categories
   + Primitive datatypes
   + Non primitive datatypes
+
+  <br>
+
+  #### **Primitive datatypes**
+
+  + Every programming language provides set of primitive datatypes.
+
+  + These datatypes are system defined (in-built) datatypes.
+
+  + In Java, there are 8 primitive datatypes:
+    + byte _(8 bit, Integer value)_
+    + short _(16 bit, Integer value)_
+    + int _(32 bit, Integer value)_
+    + long _(64 bit, Integer value)_
+    + float _(32 bit, Decimal value)_
+    + double _(64 bit, Decimal value)_
+    + boolean _(1 bit, true/false)_
+    + char _(1 bit, Character value)_
+  
+  <br>
+
+  #### **Non-primitive datatypes**
+
+  + These datatypes are also known as user-defined datatype, one can define them.
+
+  + Every class and interface in Java are non-primitive datatype.
+
+  + String is most widely used non-primitive datatype.
 
 <br>
 
