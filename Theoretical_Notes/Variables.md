@@ -8,13 +8,45 @@
 
 + Runtime environment will allocate space in memory to the program on demand of program.
 
++ **Rule:** The type of value (to be assigned to the variable) must be same as the type of variable.
+
 ```
   VARIABLE SYNTAX
 
     • Command to reserve this space in memory should be as follows:
       <variable_datatype> <variable_name>;
 
-      For example: int a; Here, 'int' is datatype and 'a' is variable's name.
+      For example: int a; Here, 'int' is primitive datatype and 'a' is variable's name.
+```
+
+<br>
+
+```
+  CREATING AND ASSIGNING VALUE TO THE VARIABLE
+
+    int num; // Command to declare/create variable with primitive datatype
+    num = 90; // Command to assign value to the variable
+
+  
+  VARIABLE INITIALIZATION
+
+    int fruit = "Apple"; // Command to create and initialize the variable
+```
+
+<br>
+
+```
+  VARIABLE VALUE AND TYPE
+
+        VALUE                                   TYPE
+
+    9 or 900 or 344632                          int
+    234464L                                     long
+    45.67                                       double
+    24.65F                                      float
+    '5' or 'A' or '$'                           char
+    true or false                               boolean
+    "455463224" or "Hello" or "rtr@space.com"   String
 ```
 
 <br>
