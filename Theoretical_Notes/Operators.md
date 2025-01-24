@@ -38,7 +38,7 @@
 
   + **Relational operators:** <, >, <=, >=, ==, !=
 
-  + **Logical operators:** && (Logical-and), || (Logical-or), ^ (Logical-xor)
+  + **Logical operators:** && (Logical-and), || (Logical-or), ^ (Logical-xor), ! (Logical-not)
 
   + **Bitwise operators:** & (Bitwise-and), | (Bitwise-or), ^ (Bitwise-xor), << (Bitwise left-shift), >> (Bitwise right-shift)
 
@@ -64,7 +64,7 @@
 
 <br>
 
-### **Increment Operator (++)**
+### **Increment operator (++)**
 
 + This operator is used to increase the value of variable by one.
 
@@ -101,6 +101,62 @@
 
 <br>
 
-### **Decrement Operator (--)**
+### **Decrement operator (--)**
 
 + This operator is used to decrease the value of variable by one.
+
+<br>
+
+### **Relational operators**
+
++ These operators are used to compare two numeric values.
+
++ After comparison, these operators return boolean value (true or false).
+
++ These operators are as follows:
+
+  + <, >, <=, >=, ==, !=
+
+<br>
+
+### **Logical operators**
+
++ These operators are used to combine two conditions.
+
++ These operators returns boolean value (true or false) after performing operation.
+
++ These operators are as follows:
+
+  + &&, ||, ^, !
+
+  <br>
+
+  #### **And (&&) operator**
+
+  + It returns true when both conditions are true.
+
+  + It is a short-circuit logical operator.
+    
+    + When first condition is false, then "&&" operator returns false without executing second condition.
+
+    + Here, primary short-circuit factor is first-condition-false. will eventually led to short-circuit.
+
+  <br>
+
+  #### **Or (||) operator**
+
+  + It returns true when at least one condition is true.
+
+  + It is a short-circuit logical operator.
+    
+    + When first condition is true, then "||" operator returns true without executing second condition.
+
+    + Here, primary short-circuit factor is first-condition-true, will eventually led to short-circuit.
+
+  <br>
+
+  #### **Xor (^) operator**
+
+  + It returns true when only one condition is true.
+
+  + It isn't a short-circuit operator, rather a general logical operator.

@@ -1,4 +1,4 @@
-# CONDITION
+# **CONDITION**
 
 <br>
 
@@ -36,6 +36,23 @@
 ### **if-else condition**
 
 + Defined condition by using "if" with "else" part.
+
++ "If block" is executed if condition is true, and "else block" is executed if the condition is false.
+
+<br>
+
+```
+  IF-ELSE SYNTAX
+
+    if(condition)
+    {
+      // command or code
+    }
+    else
+    {
+      // command or code
+    }
+```
 
 <br>
 
