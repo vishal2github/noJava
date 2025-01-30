@@ -32,6 +32,26 @@
 
 + Define loop by using "for" when number of iterations are known/fixed.
 
++ This loop is based on following three statements:
+  + Initialization
+  + Condition
+  + Updation (Increment/decrement)
+
++ An integer type of variable is needed to be declared for initialization.
+
+<br>
+
+```
+  FOR LOOP SYNTAX
+
+    for(int i = 0; i < 10; i++)
+    {
+      // command(s)
+    }
+```
+
+<br>
+
 <br>
 
 ### **nested-for construct**
