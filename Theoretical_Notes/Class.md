@@ -1,4 +1,4 @@
-# CLASS
+# **CLASS**
 
 <br>
 
@@ -9,8 +9,10 @@
   + Define constructors
   + Define methods(specially getters and setters)
 
+<br>
+
 ```
-  Example of general class:
+  CLASS SYNTAX
 
     public class Point
     {
@@ -19,33 +21,48 @@
       int y;
 
       // Defining constructor
-      public Point(int a,int b)
+      public Point(int a, int b)
       {
-    	this.x=a;
-    	this.y=b;
+    	  this.x = a;
+    	  this.y = b;
       }
 
       // Defining methods
       public int getX()
       {
-    	return this.x;
+    	  return this.x;
       }
 
       public void setX(int a)
       {
-    	this.x=a;
+    	  this.x = a;
       }
 
       public int getY()
       {
-    	return this.y;
+    	  return this.y;
       }
 
       public void setY(int a)
       {
-    	this.y=a;
+    	  this.y = a;
       }
     }
+  
+
+  NOTE
+
+    • Although "this" wasn't mandatory to be added manually in constructor,
+      although added later by complier.
+
+    • Because, the name of instance variables and method's parameters aren't same,
+      hence, "x = a" and "y = b" was allowed.
+
+    • But for "a" and "b" as names of instance variables,
+      "this" was mandatory to mention manually.
+
+    • For similar names of instance and arguments "this" is mandatory,
+      to avoid naming-ambiguity respectively.
 ```
 
 <br>
@@ -86,11 +103,16 @@
   + Public
   + Default
 
+<br>
+
 ```
-  Note:
-    > Abstract method is method without body.
-    > Public keyword is an access modifier.
-    > Classes c
+  NOTE
+
+    • Abstract method is method without body.
+
+    • Public keyword is an access modifier.
+
+    • Classes c
 ```
 
 <br>
@@ -98,9 +120,13 @@
 ### **Class's object creation**
 
 + Ways to create a class object:
+
   + By using 'new' keyword.
+
   + By calling 'newInstance()' method of 'class' class.
+
   + By calling 'clone()' method of object class.
+
   + By deserialization
 
 <br>
@@ -108,8 +134,12 @@
 ### **Nested class**
 
 + Also known as "inner class".
+
 + The class defined inside a parent class is called "member or member class" of parent class.
+
 + **Purpose:** To group classes that belong together, which makes code more readable and maintainable.
+
+<br>
 
 ```
   NESTED/INNER CLASS SYNTAX
@@ -131,4 +161,5 @@
 ### **Anonymous nested class**
 
 + It's a nested class without name.
+
 + The concept of an anonymous nested class can be used when 
