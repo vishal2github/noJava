@@ -16,18 +16,18 @@
 
     public class Point
     {
-      // Defining instance variable
+      // Defining instance variables
       int x;
       int y;
 
-      // Defining constructor
+      // Defining paremeterized constructor
       public Point(int a, int b)
       {
     	  this.x = a;
     	  this.y = b;
       }
 
-      // Defining methods
+      // Defining getter and setter methods
       public int getX()
       {
     	  return this.x;

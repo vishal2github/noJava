@@ -100,8 +100,8 @@
 
 ### **Variable's types based on scope**
 
-  + Local variables
-  + Global variables
++ Local variables
++ Global variables
 
 <br>
 
@@ -119,7 +119,8 @@
 
 + Hence, also known as instance variables.
 
-+ Object's reference is required to access these variables.
++ These variables can't be accessed without the reference of an object.
+  + Hence, object's reference is required to access these variables.
 
 + Instance variable stores the object's data.
 
@@ -146,7 +147,7 @@
 
 + These variables are declared inside method or constructor.
 
-+ Arguments are also local variables.
++ Method's arguments/parameters are also local variables.
 
 + These variables can't be accessed outside the method or constructor.
 
