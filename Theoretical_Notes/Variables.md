@@ -94,7 +94,7 @@
 + Instance variables
 + Reference variables
 + Class variables
-+ Constant variables
++ Constant variables (Technically, only constant or final)
 
 <br>
 
