@@ -69,11 +69,11 @@
 
 <br>
 
-### **Constructor overaloding**
+### **Constructor overloaoding**
 
-+ Defining more than one constructor inside the class is called constructor overloading.
++ Defining more than one constructor inside a single-class is called **constructor overloading**.
 
-+ Remember parameter list of constructor must be different.
++ Remember, parameter list of constructors must be different.
 
 + The overloading depends upon the quantity and the datatype of parameters.
 
