@@ -15,7 +15,9 @@
   + Interface
 
 + Constructors aren't possible inside interface as:
+
   + Interface has nothing to do with an object, so object creation isn't possible.
+  
   + Interface can't be a blueprint of an object.
 
 + Under interface, all methods created will be abstract and public by default.
@@ -77,27 +79,109 @@
 
 ### **Functional interface**
 
-+ The interface with one and only one abstract method is known as "Functional Interface".
++ The interface with one-and-only-one abstract method is known as **functional interface.**
+
++ Use **@FunctionalInterface** annotation in interface declaration, so that compiler checks whether or not it is functional interface.
 
 + Few functional interfaces are:
+
+  + ActionListner interface
+
+  <br>
+
+  ```
+    METHOD WITHIN
+
+      public void actionPerfomed(ActionEvent evt)
+  ```
+
+  <br>
+
   + Runnable interface
+
+  <br>
+
+  ```
+    METHOD WITHIN
+
+      public void run()
+  ```
+
+  <br>
+
   + Comparable interface
+
+  <br>
+
+  ```
+    METHOD WITHIN
+
+      public int compareTo(Object obj)
+  ```
+
+  <br>
+
   + Comparator interface
+
+  <br>
+
+  ```
+    METHOD WITHIN
+
+      public int compare(Object obj1, Object obj2)
+  ```
+
+  <br>
+
   + Predicate interface (Introduced in Java8)
+
   + Consumer interface (Introduced in Java8)
+
   + Function interface (Introduced in Java8)
+
   + Supplier interface (Introduced in Java8)
+
+  + etc...
 
 <br>
 
 ### **Lambda expression**
 
-+ It is implementation of the functional interface.
++ It is implementation of the functional interface introduced in Java 8.
+
++ It is one of the easiest way to provide implementation of functional interface.
 
 <br>
 
 ```
+  LAMBDA EXPRESSION SYNTAX
 
-+ The interface with no method is known as "Marker Interface".
+    (arguments name) -> {method body};
+
+    • If body of the method has only one command then {} is optional.
+```
+
+<br>
 
 ```
+  LAMBDA EXPRESSION CODE SYNTAX
+
+    AA obj = (name) -> System.out.println("Hello " + name);
+    obj.sayHello("Aakash");
+    obj.sayHello("Aarti");
+
+    or
+
+    AA obj = (name) -> {
+      String message = "Hello " + name;
+      System.out.println(message);
+    };
+    obj.sayHello("Aakash");
+    obj.sayHello("Aarti");
+```
+
+<br>
+
+### **Marker interface**
+
++ The interface with no method is known as **Marker Interface**.

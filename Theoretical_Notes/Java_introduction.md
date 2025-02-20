@@ -17,11 +17,13 @@
 ### **Naming rules**
 
 + Following rules must be followed in naming of class, variable, method, argument, package, constant, etc.:
+
   + Name must begin with an alphabet, dollar ($), or underscore (_).
 
   + Name can't begin with digit/number.
 
   + Symbols other than dollar and underscore aren't allowed in name.
+
     + **Why so?:** Because rest symbols have their role defined for specific task, except dollar and underscore.
   
   + Space isn't allowed in name.
@@ -33,6 +35,7 @@
 ### **Naming conventions**
 
 + Following naming conventions should be follwed:
+
   + Name should be meaningful.
 
   + Class name should be in "TitleCase".

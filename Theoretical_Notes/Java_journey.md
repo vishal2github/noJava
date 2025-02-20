@@ -87,6 +87,14 @@
 
   + The **Stream API** for working with collections in a more functional style, and **java.time** for a modern date/time API.
 
+  + **Functional interface**
+
+  + **Method reference**
+
+  + **Optional class**
+
+  + **Date API**
+  
   + These changes breathed new life into Java and opened the door for new frameworks that embraced functional programming.
 
 
