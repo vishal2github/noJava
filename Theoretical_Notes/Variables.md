@@ -55,8 +55,10 @@
 
 + Variable has its datatype that provides size and type of variable.
 
-+ Datatypes are divided into following two categories
++ Datatypes are divided into following two categories:
+
   + Primitive datatypes
+  
   + Non primitive datatypes
 
   <br>
@@ -68,13 +70,21 @@
   + These datatypes are system defined (in-built) datatypes.
 
   + In Java, there are 8 primitive datatypes:
+    
     + byte _(8 bit, Integer value)_
+    
     + short _(16 bit, Integer value)_
+    
     + int _(32 bit, Integer value)_
+    
     + long _(64 bit, Integer value)_
+    
     + float _(32 bit, Decimal value)_
+    
     + double _(64 bit, Decimal value)_
+        
     + boolean _(1 bit, true/false)_
+    
     + char _(1 bit, Character value)_
   
   <br>
@@ -92,8 +102,11 @@
 ### **Types of variables**
 
 + Instance variables
+
 + Reference variables
+
 + Class variables
+
 + Constant variables (Technically, only constant or final)
 
 <br>
@@ -101,6 +114,7 @@
 ### **Variable's types based on scope**
 
 + Local variables
+
 + Global variables
 
 <br>
@@ -120,6 +134,7 @@
 + Hence, also known as instance variables.
 
 + These variables can't be accessed without the reference of an object.
+
   + Hence, object's reference is required to access these variables.
 
 + Instance variable stores the object's data.
@@ -133,7 +148,8 @@
 + These variables are declared inside the class by using static modifier.
 
 + These variables are created when class is loaded in memory by JVM via class-loader.
-  + *Remember: A class is loaded only once in the memory during lifecycle of the project.*
+
+  + _Remember: A class is loaded only once in the memory during lifecycle of the project._
 
 + Hence, class variable has only single copy in the memory.
 
@@ -155,15 +171,22 @@
 
 ### **Instance variable vs Reference variable**
 
-+ **_Instance variable_**
+  #### **Instance variable**
+
   + Instance variable stores the object's data.
 
   + The data of an object is kept in instance variable.
 
-+ **_Reference variable_**
+  <br>
+
+  #### **Reference variable**
+
+  + Reference variable is any variable with non-primitive datatype.
+
   + Reference variable stores the object's reference.
 
   + The datatype of this variable is either class or an interface.
 
   + The datatype of reference variable can be any class, or any interface.
+
     + **Technically, the datatype of reference variable can be any current class, parent class of current class or an interface implemented by that class.**
