@@ -1,38 +1,40 @@
-# **OVER-RIDE AND OVER-LOAD**
+# **"OVER-RIDE VS OVER-LOAD" & "OVER-WRITE VS OVER-RIDE"**
 
 <br>
 
-### **Method over-riding**
+### **Over-ride vs over-load**
 
-+ Implements "runtime polymorphism".
+  #### **Method over-riding**
 
-+ The method call is determined at runtime based on the object type.
+  + Implements "runtime polymorphism".
 
-+ Occurs between superclass and subclass.
+  + The method call is determined at runtime based on the object type.
 
-+ Have the same signature (name and method arguments).
+  + Occurs between superclass and subclass.
 
-+ On error, the effect will be visible at runtime.
+  + Have the same signature (name and method arguments).
 
-+ **Purpose of method over-ride:** When child class has to change the implementation method of its super-class (parent-class) or in case where there's no implementation of super-class.
+  + On error, the effect will be visible at runtime.
+
+  + **Purpose of method over-ride:** When child class has to change the implementation method of its super-class (parent-class) or in case where there's no implementation of super-class.
+
+  <br>
+
+  #### **Method over-loading**
+
+  + Implements "compile time polymorphism".
+
+  + The method call is determined at compile time.
+
+  + Occurs between the methods in the same class.
+
+  + Have the same name, but the parameters name/order/quantity are different.
+
+  + On error, it can be caught at compile time.
 
 <br>
 
-### **Method over-loading**
-
-+ Implements "compile time polymorphism".
-
-+ The method call is determined at compile time.
-
-+ Occurs between the methods in the same class.
-
-+ Have the same name, but the parameters name/order/quantity are different.
-
-+ On error, it can be caught at compile time.
-
-<br>
-
-### **Over-write vs Over-ride**
+### **Over-write vs over-ride**
 
 + **Over-write:** To "overwrite" something is to put something else in its place, destroying the thing overwritten.
 
