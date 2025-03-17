@@ -16,8 +16,6 @@
 
   + On error, the effect will be visible at runtime.
 
-  + **Purpose of method over-ride:** When child class has to change the implementation method of its super-class (parent-class) or in case where there's no implementation of super-class.
-
   <br>
 
   #### **Method over-loading**

@@ -107,7 +107,7 @@
 
 + Class variables
 
-+ Constant variables (Technically, only constant or final)
++ Constant variables _(Technically, only constant or final)_
 
 <br>
 
@@ -121,21 +121,17 @@
 
 ### **Instance variable**
 
-+ Also known as non-static variables.
++ Also known as **non-static variables.**
 
-+ Those variables that are declared inside the class without using static modifier.
++ These variables that are declared inside the class without using static modifier/keyword.
 
-+ These variables are created each time class is instantiated by JVM.
++ These variables are created each time class is instantiated by JVM, hence each variable is an instance.
 
-+ These variables are created each time object from the class is created (process known as instantiation).
++ These variables are created each time object from the class is created _(and process known as instantiation)_.
 
 + Instance variable can have as many as objects will be created in memory.
 
-+ Hence, also known as instance variables.
-
-+ These variables can't be accessed without the reference of an object.
-
-  + Hence, object's reference is required to access these variables.
++ object's reference is required to access these variables.
 
 + Instance variable stores the object's data.
 
@@ -143,19 +139,21 @@
 
 ### **Class variable**
 
-+ Also known as static variables.
++ Also known as **static variables.**
 
-+ These variables are declared inside the class by using static modifier.
++ These variables are declared inside the class by using static modifier/keyword.
 
 + These variables are created when class is loaded in memory by JVM via class-loader.
 
-  + _Remember: A class is loaded only once in the memory during lifecycle of the project._
+  + **Remember:** A class is loaded only once in the memory during lifecycle of the project.
 
 + Hence, class variable has only single copy in the memory.
 
-+ Class name is required to access these variables.
++ Class name is required to access class variables.
 
 + Object reference can also be given to access these variables.
+
++ Access modifiers named **public, protected, private, final,** and **static** are allowed in class variable.
 
 <br>
 
@@ -166,6 +164,8 @@
 + Method's arguments/parameters are also local variables.
 
 + These variables can't be accessed outside the method or constructor.
+
++ Only **final** access modifier is used with local variable.
 
 <br>
 
