@@ -4,27 +4,31 @@
 
 ### **Implementation class**
 
-+ The class that provides the abstract method's body implementation is known as implementation class of that interface.
++ The class that provides the abstract method's body implementation is known as **implementation class** of that interface.
 
 + I.e., abstract method's body implementation will be defined in another 'child' class, and that another child class will hence be called as implementation class.
+
++ The abstract methods should be defined/implemented with "public" access modifiers in implementation class.
 
 <br>
 
 ```
-  Note: Class BB is implementation of interface AA:
+  IMPLEMENTATION STRUCTURE
 
     public interface AA
     {
       void show();
     }
 
-    public class BB implements AAd
+    public class BB implements AA
     {
       public void show()
       {
           System.out.println("Welcome");
       }
     }
+
+  • NOTE: Class BB is implementation of an Interface AA.
 ```
 
 <br>
@@ -34,7 +38,7 @@
 <br>
 
 ```
-  Multiple implementation:
+  MULTIPLE IMPLEMENTATION STRUCTURE
 
     public interface AA
     {

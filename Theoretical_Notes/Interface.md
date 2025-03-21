@@ -1,4 +1,4 @@
-# INTERFACE
+# **INTERFACE**
 
 <br>
 
@@ -9,9 +9,13 @@
 + It is only related to "abstract method" and "final variable".
 
 + Inside interface one can define:
+  
   + Method
-  + Varaible
+  
+  + Variable
+  
   + Class
+  
   + Interface
 
 + Constructors aren't possible inside interface as:
@@ -22,7 +26,7 @@
 
 + Under interface, all methods created will be abstract and public by default.
 
-+ Under interface, all variables declared will be public, final and static by default, i.e., simple declaration of variable inside interface will automatically be public, static and final all together.
++ Under interface, all variables declared will be **public, final and static** by default, i.e., simple declaration of variable inside interface will automatically be public, static and final all together.
 
 <br>
 
@@ -30,13 +34,16 @@
   INTERFACE EXAMPLE
 
     A simple variable and method is defined inside an interface:
+
       public interface AA
       {
           int num = 49;
           void show();
       }
 
+    
     Upon execution, the compiler will automatically adds required keywords for variable and method:
+
       public interface AA
       {
           public static final int num;
