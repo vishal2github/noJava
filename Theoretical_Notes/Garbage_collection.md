@@ -1,10 +1,15 @@
-# GARBAGE COLLECTION
-
-+ Automatically releasing the memory of an unreachable object is the 'Garbage collection'.
-+ This process is performed by 'JVM'.
+# **GARBAGE COLLECTION**
 
 <br>
 
-### Unreachable Object
+### **Garbage collection**
+
++ Automatically releasing the memory of an unreachable object is the **Garbage collection**.
+
++ This process is performed by **JVM**.
+
+<br>
+
+### **Unreachable Object**
 
 + The object that is no longer referenced by the program.

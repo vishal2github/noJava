@@ -129,28 +129,51 @@
 
 <br>
 
-### **Method overriding**
+### **Main method**
 
-+ To redefine parent class methods into child class is called **method overriding.**
++ The "main" is a method inside class and is considered as the entry and exit point of the java program, written as **main().**
 
-+ Overriding method has two purposes:
-  
-  + When child class has to change the implementation method of its super/parent class.
-    
-  + In case where there's no implementation method of super/parent class.
++ The call-code of main() method is called by JVM pre-defined thread known as **main-thread.**
 
-+ **Final method** of a parent/super class can be inherited, but can't be overridden by child class.
++ **args** is declared inside method's parantheses known as argument of string-type array.
 
-  + _Although, making methods final depends upon requirements._
-
-+ Static, final, and private methods can't be overridden.
++ When main method will be called by JVM, the caller will pass the reference of string-type array of zero length.
 
 <br>
 
-  #### **Method overriding rules**
+```
+  MAIN METHOD SYNTAX
 
-  + Parameter list of both methods _(overriding and overridden)_ must be same.
+    public static void main(String[] args)
+    {
+        // code
+    }
+```
 
-  + Return-type of both methods must also be same.
+<br>
 
-  + Method of child class can't be less-accessible than the parent class method.
+### **Static and non-static methods**
+
++ Methods can be static and non-static.
+
+  #### **Static methods**
+
+  + These methods are defined by using static modifier.
+
+  + If instance variable aren't required inside method then make that method static.
+
+  + Object reference isn't required to call static method.
+
+  + Class name is required to call static method.
+
+  <br>
+
+  #### **Non-static methods**
+
+  + These methods are defined without using static modifier.
+
+  + If instance variable are required inside method then make that method non-static.
+
+  + Object reference is required to call non-static method.
+
+  + An object's variable is created and the reference is passed to call that method.
