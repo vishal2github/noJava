@@ -4,13 +4,31 @@
 
 ### **Exception**
 
-+ 
++ An abnormal event/condition is known as **exception**. 
+
++ Exceptions usually occur when the program encounters a condition it doesn't know how to handle.
+
++ When an exception occurs, the program typically stops executing, unless the exception is caught and handled properly.
+
++ By handling exceptions, the program can continue running or provide a useful error message to the user.
 
 <br>
 
-### **Exception handeling**
+```
+  NOTE
 
-+ 
+    • Exception can be handeled, while error can't be handeled.
+```
+
++ Typical examples of exception:
+
+  + **Zero division error _(Python)_:** Happens when try to divide a number by zero.
+
+  + **File not found error _(Python)_:** Happens when a non-existing file is being opened.
+
+  + **Index out of range exception _(C#, Java)_:** Happends when a non-existing index is being accessed in an array or list.
+
+  + **Null pointer exception _(Java, C#)_:** Happens when a non-initialized object or variable is being referenced.
 
 <br>
 
@@ -18,21 +36,57 @@
 
   #### **Checked exceptions**
 
-  + The exception which can't be stopped are known as "Checked exceptions".
+  + The exception which can't be stopped are known as **Checked exceptions**.
 
-  + "Try and catch" or "Throws" statement is needed to be decalred in this case.
+  + **Try and catch** or **Throws** statement is needed to be decalred in this case.
+
+  + These exceptions must be explicitly handeled by the programmer.
+
+  + **Example:** FileNotFoundException 
 
   <br>
 
   #### **Un-checked exceptions**
 
-  + The exception which can't be prevented are known as "Unchecked exceptions".
+  + The exception which can't be prevented are known as **Unchecked exceptions**.
+
+  + These exceptions occur during runtime, and compiler doesn't require them to be explicitly caught.
+
+  + **Example:** NullPointerException, ArrayIndexOutOfBoundsException
 
 <br>
 
-### **Finally block**
+### **Exception handling concepts**
 
-+ 
+  #### **Try block**
+
+  + This is where the code that might raise an exception is placed.
+
+  <br>
+
+  #### **Catch/except block**
+
+  + This part allows to "catch" the exception if one is raised in the try block and define what actions to take when the exception occurs.
+
+  <br>
+
+  #### **Finally block**
+
+  + Used to execute code that shouldn't run no matter what, whether an exception is raised or not.
+
+  + Typically used for cleanup operations, like closing files or releasing resources.
+
+  <br>
+
+  #### **Raising exception**
+
+  + One might want to raise an exception explicitly, often when a condition is met that makes it impossible to continue normal execution.
+
+  <br>
+
+  #### **Custom exceptions**
+
+  + To define the own exceptions to handle specific error cases that aren't covered by standard exceptions.
 
 <br>
 
