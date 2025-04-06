@@ -4,13 +4,37 @@
 
 ### **Exception**
 
-+ An abnormal event/condition is known as **exception**. 
++ An abnormal event/condition is known as **exception**, and can be handled. 
+
++ During program's execution, some abnormal conditions might be occured.
+
++ Due to these abnormal condtitions, program might be terminated.
 
 + Exceptions usually occur when the program encounters a condition it doesn't know how to handle.
 
 + When an exception occurs, the program typically stops executing, unless the exception is caught and handled properly.
 
 + By handling exceptions, the program can continue running or provide a useful error message to the user.
+
++ Handling exceptions has following advantages:
+
+  + Will protect program from being terminated amid exception encounter.
+
+  + Informing user about abnormal condition.
+
++ Exception handling has three important terms:
+
+  + **Creating exception**
+
+    + Creating object of respective exception class, and storing messege about abnormal condition in object.
+
+  + **Throwing exception**
+
+    + Sending/forwarding exception class object's reference to the program.
+
+  + **Catching exception**
+
+    + Accepting reference of the exception.
 
 <br>
 
@@ -95,6 +119,74 @@
 + If overriden method ...
 
 + Writing throws statement in un-checked exception is unnecessary.
+
+<br>
+
+### **Exception classes**
+
++ Topmost class of hierarchy is **Throwable** _(in java.lang package)_.
+
++ It has following two child classes:
+
+  + Exception class
+
+  + Error class
+
+<br>
+
+```
+  ERROR SUBCLASS OF THROWABLE CLASS
+
+    • An "Error" is a subclass of "Throwable" that indicates
+      serious problems that a reasonable application should
+      not try to catch.
+    
+    • Direct known error subclasses:
+
+      ‣ AssertionError
+      
+      ‣ LinkageError
+      
+      ‣ ThreadDeath
+
+      ‣ VirtualMachineError
+```
+
+<br>
+
+### **Exception class**
+
++ This can be caught.
+
++ It has several child classes, like:
+
+  + IOException class
+
+  + FileNotFoundException class
+
+  + InterruptedException class
+
+  + ClassNotFoundException class
+
+  + RuntimeException class
+
++ **RuntimeException class**
+
+  + It is an unchecked exception class.
+
+  + Remember, "Error" class is also unchecked exception class.
+
+  + RuntimeException class has several childs, like:
+
+    + ArithmeticException class
+
+    + NullPointerException class
+
+    + ArrayIndexOutOfBoundsException class
+
+    + ClassCastException class
+
+    + etc...
 
 <br>
 

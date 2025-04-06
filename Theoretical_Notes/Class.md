@@ -182,3 +182,11 @@
 + It's a nested class without name.
 
 + The concept of an anonymous nested class can be used when 
+
+<br>
+
+### **Class variables**
+
++ Those variables that are declared inside a class are "static", then those commands to create the variable will run on class-loading.
+
++ Those variables that are declared inside a class are "non-static", then those commands to create the variable will run on instantiation.
