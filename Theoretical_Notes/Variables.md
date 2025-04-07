@@ -190,3 +190,11 @@
   + The datatype of reference variable can be any class, or any interface.
 
     + **Technically, the datatype of reference variable can be any current class, parent class of current class or an interface implemented by that class.**
+  
+  + Possible types of reference variable:
+
+    + Same class variable
+
+    + Parent class of that class
+
+    + Interface implemented by that class

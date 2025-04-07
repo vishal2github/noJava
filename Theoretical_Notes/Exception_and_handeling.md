@@ -66,7 +66,15 @@
 
   + These exceptions must be explicitly handeled by the programmer.
 
-  + **Example:** FileNotFoundException 
+  + **Example:** FileNotFoundException
+
+  + Exception class and all subclasses _(except RuntimeException and subclasses of RuntimeException)_ of Exception class are checked exceptions.
+
+  + Handling these exceptions are mandatory.
+
+  + Compiler checks existence of handler in source code of program. If not found, the gives error.
+
+  + These exception are also known as **compile time exceptions.**
 
   <br>
 
@@ -77,6 +85,18 @@
   + These exceptions occur during runtime, and compiler doesn't require them to be explicitly caught.
 
   + **Example:** NullPointerException, ArrayIndexOutOfBoundsException
+
+  + RuntimeException class and all subclasses.
+
+  + RuntimeException class are unchecked exceptions.
+
+  + Handling these exceptions aren't mandatory.
+
+  + Compiler doesn't check existence of handler in source code of program.
+
+  + These exceptions are also known as **run time exceptions.**
+
+  + Precaution/prevention of these exceptions are possible.
 
 <br>
 
