@@ -120,6 +120,20 @@
 
   + Typically used for cleanup operations, like closing files or releasing resources.
 
+  + Super command written inside this block will always run.
+
+  <br>
+
+  ```
+    COMBINATIONS
+
+      • try {} catch (..){}
+
+      • try {} finally (){}
+
+      • try {} catch (..) {} finally {}
+  ```
+
   <br>
 
   #### **Raising exception**
@@ -210,17 +224,19 @@
 
 <br>
 
-### **Throw and exception**
+### **Throws and exception**
+
++ If constructor of parent class **throws** checked exception, then it's mandatory for child class constructor to throw **(throws)** an exception.
 
 <br>
 
 ### **What and why?**
 
-+ If a method can face abnormal conditions, to tackle those, "throw" keyword will be used inside method's body.
++ If a method can face abnormal conditions, to tackle those, **throw** keyword will be used inside method's body.
 
-+ If exception is in "checked" category, then in method's signature/prototype, after parathesis, "throws" statement/keyword is required.
++ If exception is in **checked** category, then in method's signature/prototype, after parathesis, **throws** statement/keyword is required.
 
-+ This "throws" keyword becomes signature's part that will warn caller about method which can face unexptected conditions, and suggest not to call that without "try and catch".
++ This **throws** keyword becomes signature's part that will warn caller about method which can face unexptected conditions, and suggest not to call that without **try and catch**.
 
 <br>
 
