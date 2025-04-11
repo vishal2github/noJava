@@ -111,4 +111,22 @@
 
   + public String[] split(String separator)
 
-  + etc...
+  + public static String valueOf(int values)
+  
+    + _This method is overloaded._
+
+  + public boolean equals(Object obj)
+  
+    + _This is method of Object class. String class and all wrapper classes have overriden it._
+
+    + _equals() method of Object class checks equality of two objects reference and returns a boolean value.
+  
+  + public boolean equalsIgnoreCase(String value)
+
+  + public int compareTo(Object obj)
+
+    + _It is method of Comparable interface._
+
+    + _String class and all wrapper classes have implemented this interface and given implementation of this method._
+  
+  + public int compareToIgnoreCase(String str)
