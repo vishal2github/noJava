@@ -4,9 +4,19 @@
 
 ### **Array**
 
++ Array is most fundamental data structure.
+
++ Array helps storing multiple values of same type in a single variable.
+
++ Array is useful for storing and managing collections of data.
+
 + Program can create array in memory to keep similar type of values.
 
 + Values could be primitive and non-primitive as well.
+
++ In primitive array, elements are stored in contiguous memory location.
+
++ In non-primitive array, references are stored at contiguous locations, but actual objects may be at different locations in memory.
 
 + To keep similary type of multiple data, arrays and linked list is used.
 
@@ -47,10 +57,19 @@
 <br>
 
 ```
-  OTHER ARRAY FORMATS
+  ARRAY-DECLARATION FORMATS
 
-    Format 1: int[] num = new int[] {1, 2, 3, 4, 5};
-    Format 2: int[] num = {1, 2, 3, 4, 5};
+    • Format 1: type[] variable_name;
+    • Format 2: type variable_name[];
+
+  
+  ARRAY-DECLARATION WITH INITIALIZATION FORMATS
+
+    • Format 1.1: int[] num = new int[] {1, 2, 3, 4, 5};
+    • Format 1.2: int[] num = {1, 2, 3, 4, 5};
+    
+    • Format 2.1: int[] num = new int[] {1, 2, 3, 4, 5};
+    • Format 2.2: int num[] = {1, 2, 3, 4, 5};
 ```
 
 <br>
@@ -75,3 +94,35 @@
     	}
     }
 ```
+
+<br>
+
+### **Features of array**
+
++ Contiguous memory allocation (for primitives)
+
++ Zero-based indexing
+
++ Fixed length
+
++ Stores primitives and objects
+
+<br>
+
+### **Properties of array**
+
++ Arrays are **dynamically allocated** in Java.
+
++ Arrays are object in Java, it's length can be find using object property **length**.
+
++ Variables in array are ordered, and each has index beginning with **zero**.
+
++ Array can also be used as static field, a local variable, or a method parameter.
+
+<br>
+
+### **Types of array**
+
++ Single-dimensional array
+
++ Multi-dimensional array
